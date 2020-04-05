@@ -917,8 +917,8 @@ h1, h2, h3, h4 {
 .btn.btn-primary {
   color: #fff; }
   .btn.btn-primary:hover {
-    background: #90c317;
-    border-color: #90c317; }
+    background: #1db954;
+    border-color: #1db954; }
 
 .btn.btn-outline-white {
   background: transparent;
@@ -930,10 +930,10 @@ h1, h2, h3, h4 {
     color: #000; }
 
 .btn.btn-outline-primary {
-  color: #89ba16; }
+  color: #1db954  ; }
   .btn.btn-outline-primary:hover {
     color: #fff;
-    background: #89ba16; }
+    background: #1db954    ; }
 
 .custom-pagination a {
   width: 30px;
@@ -953,9 +953,9 @@ h1, h2, h3, h4 {
     padding-right: 10px;
     border-radius: 4px; }
   .custom-pagination a.active, .custom-pagination a:hover {
-    background: #89ba16;
+    background: #1ed760    ;
     color: #fff;
-    border-color: #89ba16; }
+    border-color: #1ed760    ; }
 
 .border-width-2 {
   border-width: 2px !important; }
