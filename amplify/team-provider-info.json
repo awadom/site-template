@@ -1,0 +1,15 @@
+{
+    "jujienv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-juji-jujienv-201032-authRole",
+            "UnauthRoleArn": "arn:aws:iam::824111635670:role/amplify-juji-jujienv-201032-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::824111635670:role/amplify-juji-jujienv-201032-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-juji-jujienv-201032-deployment",
+            "UnauthRoleName": "amplify-juji-jujienv-201032-unauthRole",
+            "StackName": "amplify-juji-jujienv-201032",
+            "StackId": "arn:aws:cloudformation:us-west-2:824111635670:stack/amplify-juji-jujienv-201032/04c71710-76eb-11ea-bfbb-0262eb65bb44",
+            "AmplifyAppId": "d33g6vp5tyhcb2"
+        }
+    }
+}

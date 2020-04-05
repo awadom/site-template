@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "juji6090e5d5",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "api3a33d5d0",
+    "apiName": "api3a33d5d0",
+    "functionArns": [
+        {
+            "lambdaFunction": "juji6090e5d5"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-juji-jujienv-201032-authRole",
+        "unAuthRoleName": "amplify-juji-jujienv-201032-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "juji6090e5d5",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
