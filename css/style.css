@@ -915,10 +915,13 @@ h1, h2, h3, h4 {
   box-shadow: none !important; }
 
 .btn.btn-primary {
-  color: #fff; }
+  background: #1db954;
+  color:#ffffff;
+}
+
   .btn.btn-primary:hover {
-    background: #1db954;
-    border-color: #1db954; }
+    background: #1ed760;
+    border-color: #1ed760; }
 
 .btn.btn-outline-white {
   background: transparent;
