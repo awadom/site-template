@@ -1703,7 +1703,6 @@ h1, h2, h3, h4 {
     overflow:hidden;
     color:black;
     font-family:'Roboto';
-    
   }
   .tile-results img
   {
@@ -1740,9 +1739,8 @@ h1, h2, h3, h4 {
   }
   .tile-results p
   {
-
     font-weight:500;
-    margin:45px 10px 10px 30px;
+    margin:45px 10px 10px 20px;
     line-height: 20px;
   /*   opacity:0; */
     transform: translateX(-200px);
@@ -1772,7 +1770,7 @@ h1, h2, h3, h4 {
   .dots-results
   {
     position:absolute;
-    bottom:5px;
+    bottom:15px;
     right:0px;
     margin: 0 auto;
     width:30px;
@@ -1789,13 +1787,13 @@ h1, h2, h3, h4 {
   {
       width: 5px;
       height:5px;
+
       background-color: currentColor;
       border-radius: 50%;
       display:block;
     opacity:0;
     transition: transform 0.4s ease-out, opacity 0.5s ease;
     transform: translateY(30px);
-   
   }
   
   .tile-results:hover span
