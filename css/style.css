@@ -466,7 +466,8 @@ h1, h2, h3, h4 {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 0.3rem; }
+    border-radius: 0.3rem;
+  margin-left: 100px; }
   .home-section .search-jobs-form .btn-search > span {
     font-size: 1rem;
     position: relative; }
@@ -577,7 +578,7 @@ h1, h2, h3, h4 {
       top: 0;
       left: 0;
       right: 0;
-      bottom: 20;
+      bottom: 0;
       background: #1db954;
       z-index: 1; }
     .bg-image.overlay-primary > .container {
@@ -839,8 +840,9 @@ h1, h2, h3, h4 {
 
 .section-hero, .section-hero > .container > .row {
   height: 100vh;
-  min-height: 900px; }
-
+  min-height: 900px; 
+  
+}
 .section-hero.inner-page, .section-hero.inner-page > .container > .row {
   height: auto;
   min-height: auto;
