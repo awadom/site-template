@@ -466,8 +466,7 @@ h1, h2, h3, h4 {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 0.3rem;
-  margin-left: 100px; }
+    border-radius: 0.3rem;}
   .home-section .search-jobs-form .btn-search > span {
     font-size: 1rem;
     position: relative; }
@@ -1693,8 +1692,8 @@ h1, h2, h3, h4 {
   }
   .tile-results
   {
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
     margin:10px;
     background-color:#edf0fa;
     display:inline-block;
@@ -1742,12 +1741,12 @@ h1, h2, h3, h4 {
   }
   .tile-results p
   {
-    font-weight:500;
-    margin:45px 10px 10px 20px;
-    line-height: 20px;
+
+    margin:20px 10px 10px 20px;
+    line-height: 15px;
   /*   opacity:0; */
     transform: translateX(-200px);
-
+    font-size: .8rem;
     transition-delay: 0.2s;
   }
   .animate-text-result
