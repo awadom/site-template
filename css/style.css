@@ -541,7 +541,7 @@ h1, h2, h3, h4 {
   .home-section .scroll-button {
     position: absolute;
     z-index: 2;
-    top: 120%;
+    top: 130%;
     bottom: 0;
     width: 50px;
     height: 50px;
