@@ -1,9 +1,5 @@
-import { promises } from "dns";
-
-(function() {
-
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-auth.js"></script>
 //initialize Firebase
-
 const config = {
     apiKey: "AIzaSyDOkMZhrYawyPP_98WA-voUhtGqQK3e27Q",
     authDomain: "juji-firebase.firebaseapp.com",
@@ -26,12 +22,14 @@ firebase.initializeApp(config);
 
 //Add login event
     btnLogin.addEventListener('click', e => {
+
 // Get email and pass
     const email = txtEmail.value;
     const pass = txtPassword.value;
     const auth = firebase.auth();
+
 //Sign in
-    const promise = auth.signInWithEmailAndPassword(email, password);
+    const promise = auth.signInWithEmailAndPassword(email, pass);
     promise.catch(e => console.log(e.message));
 });
 
@@ -43,7 +41,7 @@ btnLogin.addEventListener('click', e => {
     const pass = txtPassword.value;
     const auth = firebase.auth();
     //Sign in
-    const promise = auth.createUserWithEmailAndPassword(email, password);
+    const promise = auth.createUserWithEmailAndPassword(email, pass);
     promise
         .catch(e => console.log(e.message));
 });
@@ -60,5 +58,4 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
     } else {
         console.log('not logged in');
     }
-    
 });
